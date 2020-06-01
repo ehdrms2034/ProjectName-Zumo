@@ -11,9 +11,12 @@
 **Signaling Server** 
 - Node.js
 - Typescript 
- 
+- PM2
+
 **ETC Server**
-- Spring Boot
+- Spring Boot (사용자 인증 + Redis + JWT Token)
+
 
 #### CI/CD
-- Nginx(Proxy, LoadBalnacer)
+- Jenkins
+- Netflix Zuul 혹은 Spring Cloud Starter
